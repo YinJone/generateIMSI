@@ -6,7 +6,7 @@ public class IMSi {
 		getIMSI_L("460111000699241");
 		getIMSIName("460037660696606");   
 		getESN("80564854");
-	   
+	   int a;
 	       
 	    }
 	 
@@ -202,9 +202,6 @@ public static String getIMIS_T(String imsi_t) {
 	
 }	 
 public static String  getIMSI_L(String imsi_l) {
-		
-	
-	
 	
 		 				//9460111000699241
 		 				//4 0 1 0 0 9 2 1
