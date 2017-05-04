@@ -2,11 +2,11 @@ package imsi;
 
 public class IMSi {
 	 public static void main(String []args) {
-		getIMIS_T("460037660696606");
-		getIMSI_L("460111000699241");
-		getIMSIName("460037660696606");   
-		getESN("80564854");
-	   int a;
+		getIMIS_T("");
+		getIMSI_L("");
+		getIMSIName("");   
+		getESN("");
+	   
 	       
 	    }
 	 
@@ -203,9 +203,7 @@ public static String getIMIS_T(String imsi_t) {
 }	 
 public static String  getIMSI_L(String imsi_l) {
 	
-		 				//9460111000699241
-		 				//4 0 1 0 0 9 2 1
-		 				// 9 6 1 1 0 6 9 4
+		 			
 		 String IMSI_L_9 = "9"+imsi_l;
 		 String im = new String();
 		 String buf = new String();
@@ -229,7 +227,7 @@ public static String  getIMSI_L(String imsi_l) {
 	}
 
 	public static String getIMSIName (String IMSI_name) {
-		// 460037660696604
+		
 		
 		StringBuffer imsiName = new StringBuffer();
 		for (int i = 0; i < 15; i++) {
@@ -244,11 +242,7 @@ public static String  getIMSI_L(String imsi_l) {
 	
 	
 	public static String getESN(String esn) {
-		/*
-		 * 80564854
-		 * 0454485680000000
-			6A6B6C6D6E6F6J6H
-		 * */
+		
 		
 		
 		
